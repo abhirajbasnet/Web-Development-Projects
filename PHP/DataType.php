@@ -55,6 +55,14 @@ $lastName = true;
 $car = array("BMW", "Toyota", "Holden", "Mitusubi");
 var_dump($car);
 ?>
+
+<?php
+//Null
+$g = 23;
+$j = null;
+echo "<br>";
+var_dump($j);
+?>
 </body>
 </html>
 
