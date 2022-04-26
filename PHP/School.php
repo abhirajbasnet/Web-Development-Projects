@@ -41,7 +41,7 @@ class School
     {
         return $this->classNo;
     }
-    
+
 
 
 }
