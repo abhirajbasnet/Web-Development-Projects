@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+   <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking time to help us to improve the platform</p>
+    <form id="survey-form">
+        <fieldset>
+             <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your name"></label>
+            <label id="email-label">Email <input id="email" type="email" required placeholder="Enter your Email"></label>
+            <label id="number-label">Age(optional) <input id="number" type="number" min="13" max="13" placeholder="Age"></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="option">Which option best describes your current role? 
+                <select id="dropdown">
+                    <option value="">Select the current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Perfer Not To Say </option>
+                    <option value="5">Other</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <h3>Would you recommend freeCodeCamp to a friend?</h3>
+            <label for="definitely"><input id="definitely" type="radio" name="option" value="">Definitely</label>
+             <label for="maybe"><input id="maybe" type="radio" name="option" value="">Maybe</label>
+              <label for="notSure"><input id="notSure" type="radio" name="option" value="">Not Sure</label>
+        </fieldset>
+
+        <fieldset>
+            <label for="Front-end"><input id="font-end" value="front-end" type="checkbox">Front-end Projects</label>
+             <label for="back-end"><input  id="back-end" value="back-end" type="checkbox">Back-end Projects</label>
+              <label for="data"><input id="data" value="data" type="checkbox">Data Visualization</label>
+        </fieldset>
+        <fieldset>
+            <label> <textarea name="suggestion" id="suggestion" cols="30" rows="10" placeholder="Enter your comment here.."></textarea></label>
+        </fieldset>
+
+        <input type="submit" id="submit" value="Submit">
+        
+        
+       
+        
+    </form>
+</body>
+</html>
